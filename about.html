@@ -1,12 +1,12 @@
+<!--about.html-->
 <html>
     <head>
-        <title>Homepage | Karen Judin Photography</title>
+        <title>About | Karen Judin Photography</title>
         <link type="text/css" rel="stylesheet" href="css/styles.css">
         <link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i|Oswald:300,400,700" rel="stylesheet">   
     </head>
     <body>
-
         <!--        This is the header with the website logo. -->
         <header>
             <p>Karen Judin<br>Photography</p>
@@ -18,7 +18,7 @@
             <!--            Primary navigation. -->
             <div id="primary_nav"> 
                 <ul>
-                    <li class="currentgallery"><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Home</a></li>
                     <li><a href="#" id="portfolio">Portfolio</a>
                         <ul id="dropdown">
                             <li><a href="documentary.html">Documentary</a></li>
@@ -29,57 +29,34 @@
                             <li><a href="travel.html">Travel</a></li>
                         </ul>
                     </li>
-                    <li><a href="about.html">About</a></li>
+                    <li class="currentgallery"><a href="about.html">About</a></li>
                     <li><a href="contact.html">Contact</a></li>
                     <li><a href="cv-resume.html">Resume</a></li>
                 </ul>
             </div>
 
             <!--            Social media navigation. -->
-            <div id="social_nav"> 
+            <div id="social_nav">
                 <a href="https://www.facebook.com/karenjudin" target="_blank"><i class="fa fa-facebook-square"></i></a>
                 <a href="https://www.instagram.com/karenmargaux/" target="_blank"><i class="fa fa-instagram"></i></a>
             </div>
 
         </nav>
-
-        <!--        Container for image gallery. -->
         <section>
-            <article>
-                <img class="float_left_image" src="imagery/image1.png" title="Harvard Square"/>
-                <p class="photo_caption">Harvard Square 2016</p>
-            </article>
-            <article>
-                <img class="float_left_image" src="imagery/tattoos/_MG_9477.jpg" title="Kevin"/>
-                <p class="photo_caption">Kevin</p>
-            </article>
-            <article>
-                <img class="float_left_image" src="imagery/film/doubleexposure.jpg" title="Arlington"/>
-                <p class="photo_caption">Arlington</p>
-            </article>
-            <article>
-                <img class="float_left_image" src="imagery/film/img003lucy.jpg" title="Lucy"/>
-                <p class="photo_caption">Lucy</p>
-            </article>
-            <article>
-                <img class="float_left_image" src="imagery/film/img002color.jpg" title="Lucy"/>
-                <p class="photo_caption">Lucy</p>
-            </article>
-            <article>
-                <img class="float_left_image" src="imagery/expressions/OliveFinal.jpg" title="Olive"/>
-                <p class="photo_caption">Olive</p>
-            </article>
+            <div class="bio">
+                <p class="bio_title">About Me</p>
+                <p>My name is Karen Judin and I am an aspiring photojournalist. I am a third-year candidate for a Bachelor of Fine Arts in Photography at Lesley University College of Art and Design in Cambridge, Massachusetts. I was born and raised in Tucson, Arizona, and throughout my childhood often found myself inspired by the incredible landscapes that were seen daily. I combined this love of nature with my love of art, and early in my life discovered my love for photography. Not only do I love to photograph landscapes, but people in their natural setting. I hope to travel across the globe learning about many different cultures and lifestyles, and making it possible for others to gain awareness. 
+                </p><br>
+            </div>
+            <img class="bio_image" src="imagery/bio.jpg" title="self-portrait"/>
         </section>
-
         <!--        Footer with copyright stuff, etc. -->
         <footer>
             <p>&copy; Karen Judin 2016</p>
         </footer>
-
         <!-- load jQuery -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
         <!-- load local JavaScript -->
         <script src="js/scripts.js" type="text/javascript"></script>
-
     </body>
 </html>

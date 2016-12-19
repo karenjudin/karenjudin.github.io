@@ -1,0 +1,185 @@
+body {
+    background-color: #fff ;
+    font-family: 'Oswald', sans-serif; 
+}
+
+header, nav, div, section, footer, article {
+/*    border: 2px solid #d00 ;*/
+}
+
+header p {
+    text-transform: uppercase ;
+    font-weight: 700 ;
+    font-size: 1.65em ;
+    position: relative ;
+    padding-top: 8px ;
+    left: 3% ;
+    text-align: justify ;
+    letter-spacing: 1px ;
+}
+
+nav { 
+    float: left ;
+    width: 15.3% ;
+    height: 540px ;
+    position: relative;
+/*    margin-left: 3.6% ;*/
+/*    font-weight: 300 ;*/
+}
+
+a {
+    color: black ;
+    text-decoration: none ;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00aeff;
+}
+
+nav #primary_nav ul {
+    list-style-type: none ;
+/*    height: 80%;*/
+}
+
+nav ul ul#dropdown {
+/*    margin-right: 20px ;*/
+    -webkit-padding-start: 15px ;
+}
+nav ul ul#dropdown a {
+    color: dimgray ;
+}
+nav ul ul#dropdown a:hover {
+    color: #00aeff;
+}
+.currentpage , .currentgallery a {
+    text-decoration: underline ;
+/*    color: red ;*/
+}
+
+#social_nav {
+/*
+    position: relative ;
+    top: 20% ;
+*/
+    position: absolute;
+    bottom: 0 ;
+    margin-left: 20% ;
+/*    padding-top: 185% ;*/
+}
+
+#social_nav i {
+font-size: 1.6em ;    
+
+    padding-right: 10px ;
+/*    height: 30px ;*/
+
+}
+
+.about_nav {
+/*
+    position: relative ;
+    top: 142px ;
+*/
+}
+
+img.facebook, img.instagram {
+    width: 16%;
+}
+  
+section {
+    float: right ;
+    float: right ;
+    width: 79.1% ;
+    margin-left: 1.1% ;
+    overflow-x: scroll ;
+    margin-bottom: 3em ;
+    position: relative ;
+}
+
+section article {
+    display: table-cell ;
+}
+section article.artiststatement {
+    vertical-align: top ;
+    padding-top: 22px ;
+}
+section article.artiststatement p {
+    width: 400px ;
+    margin-right: 3em ; 
+    line-height: 1.5em ;
+}
+section article img.float_left_image {
+    margin-right: 3.5em ;
+    pointer-events: none ;
+}
+section article p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.7em ;
+}
+section .bio p {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.7em ;
+    line-height: 1.5em ;
+}
+
+section p.bio_title {
+    font-weight: 700 ;
+}
+section article p.title {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.7em ;
+    font-weight: 700 ;
+}
+section article p.tagline {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.7em ;
+    font-style: italic ;
+}
+section article p.photo_caption {
+    font-family: 'Libre Baskerville', serif;
+    font-size: 0.8em ;
+    font-style: italic ;
+    margin-bottom: 1.3em;
+}
+img.float_left_image {
+    margin-bottom: 0px ;
+}
+/*
+section img.bio {
+    width: 28.6% ;
+    height: 34.1% ;
+}
+*/
+.form-section {
+    font-family: 'Libre Baskerville', serif;
+}
+input {
+    border-color: black ;
+}
+.form-all {
+    background-image: none;
+    padding-top: 22px;
+}
+.form-label {
+    font-family: 'Libre Baskerville', serif; !important
+}
+.form-required {
+    display: none ;
+}
+section .bio {
+    width: 60% ;
+}
+object {
+    padding-top: 22px ;
+}
+footer {
+    clear: both ;
+/*    position: relative ;*/
+    margin-left: 3% ;
+/*    font-weight: 300 ;*/
+}
+
